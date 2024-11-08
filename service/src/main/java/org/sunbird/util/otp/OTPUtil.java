@@ -82,7 +82,7 @@ public final class OTPUtil {
       return false;
     }
     Map<String, String> smsTemplate = new HashMap<>();
-    String templateId = (String) otpMap.get(JsonKey.TEMPLATE_ID);
+    String templateId = "66d6b411d6fc0561bd765862";
     smsTemplate.put(JsonKey.OTP, (String) otpMap.get(JsonKey.OTP));
     smsTemplate.put(
         JsonKey.OTP_EXPIRATION_IN_MINUTES, (String) otpMap.get(JsonKey.OTP_EXPIRATION_IN_MINUTES));
